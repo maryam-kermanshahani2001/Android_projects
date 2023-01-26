@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.HW3"
+    tools:context=".BookDetails">
+
+    <TextView
+        android:id="@+id/bookNameDetailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        android:theme="@style/Theme.HW3" />
+
+    <TextView
+        android:id="@+id/authorDetailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/bookNameDetailTv"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:theme="@style/Theme.HW3" />
+
+    <TextView
+        android:id="@+id/publisherNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/authorDetailTv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/publishYearTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/publisherNameTv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/summaryTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/publishYearTv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+
+
+
+

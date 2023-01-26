@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HW4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_number">Enter number</string>
+    <string-array name="planets_array">
+        <item>$ USA</item>
+        <item>$ CAN</item>
+        <item>$ ENG</item>
+        <item>P ENG</item>
+        <item>R IR</item>
+        <item>D EM</item>
+        <item>EU</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="0dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/book"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@color/mt_500">
+
+            <ImageView
+                android:id="@+id/bookJIv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- <ProgressBar
+                 android:id="@+id/progressBar"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" />-->
+        </RelativeLayout>
+        <!--Android TextView ellipsize property Causes words in the text that are longer than the view’s width to be ellipsized ( means to shorten text using an ellipsis, i.e. three dots …) instead of broken in the middle to fit it inside the given view.-->
+        <TextView
+            android:id="@+id/titleTv"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/book"
+            android:ellipsize="end"
+            android:maxLines="1"
+
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/authorTv"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleTv"
+            android:layout_toEndOf="@id/book"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_marginTop="8dp"
+            android:paddingStart="10dp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

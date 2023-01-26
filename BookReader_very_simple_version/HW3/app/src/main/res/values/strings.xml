@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HW3</string>
+    <string name="author">J.K. Rowling</string>
+    <string name="action_switch_layout">Switch Layout</string>
+
+    <string name="stone_book">Harry Potter and Philosophers Stone</string>
+    <string name="secret_book">Harry Potter and Chamber of Secrets</string>
+    <string name="prisoner_book">Harry Potter and Prisoner of Azkaban</string>
+    <string name="fire_book">Harry Potter and Goblet of Fire</string>
+    <string name="phoenix_book">Harry Potter and the Order of the Phoenix</string>
+    <string name="blood_book">Harry Potter and the Half-Blood Prince</string>
+    <string name="yad_book">Harry Potter and the Deathly Hallows</string>
+    <string name="title">Title</string>
+
+
+</resources>
